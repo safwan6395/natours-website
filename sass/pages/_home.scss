@@ -5,7 +5,6 @@
 }
 
 .section-features {
-  z-index: 50;
   padding: 25rem 0;
   margin-top: -25vh;
   background-image: linear-gradient(
@@ -16,4 +15,10 @@
     url(../img/nat-4.jpg);
   background-size: cover;
   clip-path: polygon(0 20vh, 100% 0, 100% 80%, 0 100%);
+}
+
+.section-tours {
+  background-color: $color-gray-light-1;
+  padding: 25rem 0 15rem 0;
+  margin-top: -25vh;
 }
