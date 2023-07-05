@@ -1,6 +1,6 @@
 .section-about {
   background-color: $color-gray-light-1;
-  padding: 25rem 0;
+  padding: 25rem 0 27rem 0;
   margin-top: -25vh;
 }
 
@@ -14,6 +14,7 @@
     ),
     url(../img/nat-4.jpg);
   background-size: cover;
+  -webkit-clip-path: polygon(0 20vh, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 20vh, 100% 0, 100% 80%, 0 100%);
 }
 
@@ -21,4 +22,9 @@
   background-color: $color-gray-light-1;
   padding: 25rem 0 15rem 0;
   margin-top: -25vh;
+}
+
+.section-stories {
+  position: relative;
+  padding: 15rem 0;
 }
