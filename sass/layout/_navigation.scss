@@ -83,7 +83,7 @@
 
     &:hover,
     &:active {
-      background-position: 100%;
+      background-position: 100%; // positioned the background such that background right edge get aligned with the container right edge
       transform: translateX(1rem);
       color: $color-primary;
     }
