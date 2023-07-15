@@ -797,15 +797,41 @@ body {
   display: table-cell;
   width: 33.33%;
 }
+@media (max-width: 56.25em) {
+  .popup__left {
+    display: flex;
+    align-items: end;
+    width: 100%;
+  }
+}
 .popup__right {
   width: 66.67%;
   display: table-cell;
   vertical-align: middle;
   padding: 3rem 5rem;
 }
+@media (max-width: 56.25em) {
+  .popup__right {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 37.5em) {
+  .popup__right {
+    width: 100%;
+  }
+}
 .popup__img {
   display: block;
   width: 100%;
+  height: 50%;
+}
+@media (max-width: 56.25em) {
+  .popup__img {
+    width: 50%;
+    scale: 1.05;
+  }
 }
 .popup__text {
   font-size: 1.4rem;
